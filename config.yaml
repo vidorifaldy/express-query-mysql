@@ -1,0 +1,37 @@
+port: 2000
+dport: 80
+baseurl: 'http://localhost'
+middleurl: '/api/v1'
+enabledJWT: false
+
+# MySQL config
+development:
+    host: 'localhost'
+    username: 'root'
+    password: 'vidorifaldY3*'
+    database: 'itransport_dev'
+    client: 'mysql'
+    port: ''
+    tz: 'utc'
+    #logging: false
+
+production:
+    host: '10.14.23.165'
+    username: 'root'
+    password: 'P@ssw0rd@2020'
+    database: 'ebalita_dev'
+    client: 'mariadb'
+    port: ''
+    tz: 'utc'
+    #logging: false
+
+live:
+    host: '3.0.247.1'
+    username: ''
+    password: ''
+    password: ''
+    database: 'itransport-live'
+    client: 'mariadb'
+    port: ''
+    tz: 'utc'
+    #logging: false
